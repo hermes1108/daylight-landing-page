@@ -1,0 +1,20 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  background: #ffffff;
+
+  /* // */
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: #da4211;
+  transition: 300ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  cursor: pointer;
+}
+.button-container:hover {
+  background: hsl(0, 0%, 90%);
+}
